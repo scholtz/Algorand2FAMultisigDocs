@@ -2,6 +2,10 @@
 
 This is documentation and security walkthrough for open source 2FA implementation for algorand multisig [https://github.com/scholtz/Algorand2FAMultisig](https://github.com/scholtz/Algorand2FAMultisig)
 
+Implemented in AWallet - [https://github.com/scholtz/wallet](https://github.com/scholtz/wallet)
+
+Public list of 2FA servers - [https://github.com/scholtz/AlgorandPublicData/tree/main/2fa](https://github.com/scholtz/AlgorandPublicData/tree/main/2fa)
+
 ### Use cases
 
 * Increase security for ledger device by adding fingerprint 2FA
