@@ -1,6 +1,6 @@
 # 2FA Server setup
 
-Server can be build either from the source code, or latest docker imaga can be used.
+Server can be build either from the source code, or latest docker image can be used.
 
 Source code of the server: [https://github.com/scholtz/Algorand2FAMultisig](https://github.com/scholtz/Algorand2FAMultisig)
 
