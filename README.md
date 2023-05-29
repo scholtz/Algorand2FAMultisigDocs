@@ -1,10 +1,6 @@
 # Algorand 2FA Auth Documentation
 
-This is documentation and security walkthrough for open source 2FA implementation for algorand multisig [https://github.com/scholtz/Algorand2FAMultisig](https://github.com/scholtz/Algorand2FAMultisig)
-
-Implemented in AWallet - [https://github.com/scholtz/wallet](https://github.com/scholtz/wallet)
-
-Public list of 2FA servers - [https://github.com/scholtz/AlgorandPublicData/tree/main/2fa](https://github.com/scholtz/AlgorandPublicData/tree/main/2fa)
+This is documentation and security walkthrough for open source 2FA implementation for algorand multisig
 
 ### Use cases
 
@@ -22,7 +18,15 @@ There is variety of 2FA applications. Most common one is for example google auth
 
 Server API uses ARC-14 authentication. ARC-14 is authentication by signing self transaction with specific realm. Validity of such transaction is validated in scope of selected network and expiration is checked against the current round on the network vs signed validity round number.
 
+### Repositories
 
+2FA Server source code - [https://github.com/scholtz/Algorand2FAMultisig](https://github.com/scholtz/Algorand2FAMultisig)
+
+Implemented in AWallet - [https://github.com/scholtz/wallet](https://github.com/scholtz/wallet)
+
+Public list of 2FA servers - [https://github.com/scholtz/AlgorandPublicData/tree/main/2fa](https://github.com/scholtz/AlgorandPublicData/tree/main/2fa)
+
+Please HELP us to improve this documentation. Please discuss or create PR at [https://github.com/scholtz/Algorand2FAMultisigDocs](https://github.com/scholtz/Algorand2FAMultisigDocs)
 
 
 

@@ -44,3 +44,12 @@ Combination of 9 persons - 9 primary accounts, 9 2FA accounts. Threshold of 9 mi
 
 It is possible that some of the persons do not use 2FA accounts, and might increase the security of the multisig.
 
+### 2FA Account seed
+
+Server secret is used to create the 2FA accounts. Hash(PrimaryAccount+Secret+SecondaryAccount) = seed for algorand account.
+
+{% embed url="https://github.com/scholtz/Algorand2FAMultisig/blob/1ae2ccedf94f7d3d2de591de54c547555d7ed357/Algorand2FAMultisig/Controllers/MultisigController.cs#L146" %}
+
+Authenticator secret key is Hash(TwoFactorAccount (generated from seed) + Secret)
+
+{% embed url="https://github.com/scholtz/Algorand2FAMultisig/blob/1ae2ccedf94f7d3d2de591de54c547555d7ed357/Algorand2FAMultisig/Controllers/MultisigController.cs#LL335C17-L335C100" %}

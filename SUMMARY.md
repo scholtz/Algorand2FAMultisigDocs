@@ -4,3 +4,4 @@
 * [Diagrams](diagrams.md)
 * [Recovery](recovery.md)
 * [Risk assessment](risk-assessment.md)
+* [2FA Server setup](2fa-server-setup.md)
