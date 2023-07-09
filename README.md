@@ -8,6 +8,10 @@ This is documentation and security walkthrough for open source 2FA implementatio
 * Increase security for hot account @ web wallet
 * Corporate self custody security - 3 persons - 3 crypto devices + 3 2fa devices
 
+### Example usage
+
+{% embed url="https://www.youtube.com/watch?v=eQ2cKJGFHVw" %}
+
 ### Solution
 
 Algorand has native support for multisignature accounts. Multisignature account is set of private key protected accounts with defined signature threshold. Lets define 3 accounts. Primary account - the account for which we want to improve security. 2FA account - server api account which can sign transaction only if valid authentication pin is provided. Recovery account - account set for recovery purposes. Multisignature account is the account composited from these 3 accounts, where valid signature can be done using compounding signature of at least 2 accounts.
