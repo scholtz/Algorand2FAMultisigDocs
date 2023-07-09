@@ -10,7 +10,7 @@ This is documentation and security walkthrough for open source 2FA implementatio
 
 ### Example usage
 
-{% embed url="https://www.youtube.com/watch?v=eQ2cKJGFHVw" %}
+{% embed url="https://www.youtube.com/watch?v=NQvLfQqQk8E" %}
 
 ### Solution
 
